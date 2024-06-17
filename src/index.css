@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+header{
+    min-height: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 60px;
+
+}
+
+header div{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+
+section div{
+height: 25rem;
+flex: 1 0 auto;
+padding: 10px 50px;
+border-radius:10px;
+overflow: auto;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+main{
+    cursor: pointer;
+}
